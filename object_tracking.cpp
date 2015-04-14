@@ -5,6 +5,7 @@ Author Mario Ruiz */
 #include <stdlib.h>
 #ifdef __arm__
 	#include <raspicam/raspicam_cv.h>
+	using namespace raspicam;
 #endif
 #include <opencv2/opencv.hpp>
 #include "opencv2/highgui/highgui.hpp"
@@ -12,9 +13,7 @@ Author Mario Ruiz */
 
 using namespace std;
 using namespace cv;
-#ifdef __arm__
-	using namespace raspicam;
-#endif	
+
  
 void help(){
 	cout << "Is no flag define yellow is a default color for tracking" << endl;
