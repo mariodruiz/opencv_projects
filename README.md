@@ -30,7 +30,7 @@ Part of this code is based in the post http://opencv-srf.blogspot.com.es/2010/09
 	
 	generate a binary file called object_tracking.
 
-###Ejecut the program
+###Run the program
 	
 	./object_tracking
 
