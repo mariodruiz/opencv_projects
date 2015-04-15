@@ -38,23 +38,23 @@ int main ( int argc,char **argv ) {
 		}
 		else if (strcmp(argv[1], "-o")==0) {
 			hue_low = 0; 
-		        hue_high = 22; // for yellow color
+		        hue_high = 22; // for orange color
 		}
         else if (strcmp(argv[1], "-g")==0) {
                 hue_low = 38; 
-                hue_high = 75; // for yellow color
+                hue_high = 75; // for green color
         }
         else if (strcmp(argv[1], "-b")==0) {
                 hue_low = 75; 
-                hue_high = 130; // for yellow color
+                hue_high = 130; // for blue color
         }
         else if (strcmp(argv[1], "-v")==0) {
                 hue_low = 130; 
-                hue_high = 160; // for yellow color
+                hue_high = 160; // for violet color
         }
         else if (strcmp(argv[1], "-r")==0) {
                 hue_low = 160; 
-                hue_high = 179; // for yellow color
+                hue_high = 179; // for red color
         }
 	}
 
